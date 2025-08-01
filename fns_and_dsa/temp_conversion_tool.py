@@ -19,6 +19,5 @@ try:
         print(f"{temp}°F is {converted}°C")
     else:
         raise ValueError("Invalid temperature unit. Please enter 'C' or 'F'.")
-
 except ValueError:
     print("Invalid temperature. Please enter a numeric value.")
